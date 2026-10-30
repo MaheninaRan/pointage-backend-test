@@ -1,0 +1,12 @@
+@'
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+venv/
+.venv/
+'@ | Set-Content -Encoding utf8 .gitignore
+media/
